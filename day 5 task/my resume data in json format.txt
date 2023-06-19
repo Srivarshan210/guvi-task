@@ -1,0 +1,39 @@
+var resume = {
+    "INFO":{
+        "Name":"Srivarshan",
+        "Age":23,
+        "Gender":"Male",
+        "E-mail":"msrivarshan30@gmail.com",
+        "Phone No":9764365687,
+        "DOB":02-10-2001,
+            },
+       "Address":{
+           "Door no":56/1,
+           "Street name":"Crosscut street",
+           "Area":"T.T Nagar",
+           "City":"chennai"
+           "Postal code":686857,
+           "State":"Tamilnadu",
+           "Country":"India",
+       },
+       "Educational Qualification":{
+           "Degree":"B.E",
+           "Stream":"Computer science and Engineering",
+           "Institute":"Hindusthan College of Engineering and Technology,Coimbatore",
+           "Start Date":12-09-2019,
+           "End Date":18-04-2023,
+           "Gpa":8.5,
+       },
+       "Skills":{
+           "name":"Full Stack Development",
+           "level":"Intermediate level",
+           "keywords":"Html,Css,Javascript,My Sql,Java",
+       }
+       "Language":{
+           "speak":"English,Tamil,Telugu",
+           "Read":"English,Tamil",
+           "Write":"English,Tamil",
+       },
+       "Hobbies":"Web Coding,Listening the Music,Playing the Volley ball",
+}
+console.log(resume)

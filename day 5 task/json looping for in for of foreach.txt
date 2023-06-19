@@ -1,0 +1,32 @@
+//for in 
+const data = {
+    "name":"Srivarshan",
+    "Gender":"Male",
+    "Age":23,
+}
+for(let i in data){
+console.log(i);
+}
+// for of
+const arr =[89,56,79,90,34,56];
+for(let i of arr){
+    console.log(i);
+}
+//for each
+ 
+ class Counter{
+     constructor(){
+         this.sum=0;
+         this.count=0;
+     }
+     add(array){
+         array.forEach(function countEntry(entry)){
+             this.sum+=entry;
+             ++this+=entry;
+         }, this);
+     }
+ }
+ const obj = new Counter();
+ obj.add([7,8,9,5]);
+ console.log(obj.count);
+ console.log(obj.sum);
