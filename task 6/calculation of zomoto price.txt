@@ -1,0 +1,11 @@
+class ZomotoPrice{
+    constructor(KmsTravelled=0,PricePerkilometer=0){
+    this.KmsTravelled=KmsTravelled;
+    this.PricePerkilometer=PricePerkilometer;
+    }
+caculateZomotoPrice(){
+   return this.KmsTravelled*this.PricePerkilometer;
+ }
+}
+const Bill = new ZomotoPrice(50,5);
+console.log(Bill.caculateZomotoPrice());

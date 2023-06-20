@@ -1,0 +1,11 @@
+class Student{
+    constructor(name='',class='',section='',regno ='',gender='',dob='',){
+         this.name = 'Srivarshan';
+         this.class = 'XII'
+         this.section = 'A';
+         this.regno = '5757676766';
+         this.gender = 'Male';
+         this.dob = '02-10-2001';
+    }
+}
+console.log(Student);

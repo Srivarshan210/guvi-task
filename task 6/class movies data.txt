@@ -1,0 +1,19 @@
+class Movie{
+    constructor(name='',studio='',rating=''){
+     this.name=name;
+     this.studio=studio;
+     this.rating=rating||'PG';
+    }
+    getpg(data=[]){
+        return data.filter((d)=>d.rating==='PG');
+    }
+}
+const MoviesList = new movies();
+var Movies = [
+    new movies('ps-2','Lyca','4.3'),
+    new movies('Vikaram','Red Giant','4.5'),
+    new movies('Thanivu','Red Giant','4.6'),
+    new movies('Varisu','Seven Screen','4.7'),
+    new movies('Vaathi','Sony Pictures','4.2'),
+];
+console.log(MovieList.getpg(Movies));
